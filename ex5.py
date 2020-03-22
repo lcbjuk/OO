@@ -69,8 +69,8 @@ class CadastroAlunos:
           swap = self.__alunos[i]
           self.__alunos[i] = self.__alunos[j]
           self.__alunos[j] = swap;
-      media /= len(self.__alunos)
-      return media  
+    media /= len(self.__alunos)
+    return media  
       
   def imprimeLista(self):
     for i in range(0,len(self.__alunos),1):
